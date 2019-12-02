@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jeevika_n/Screen/home.dart';
 import 'package:jeevika_n/Presentation/utils.dart';
+import 'package:jeevika_n/Screen/profilePage.dart';
 
 class HomePage extends StatefulWidget{
   @override
@@ -15,7 +16,7 @@ class HomePageState extends State<HomePage>{
   final List<Widget> _children = [
   Home(),
     PlaceholderWidget(Colors.deepOrange),
-    PlaceholderWidget(Colors.green)
+    ProfilePage()
   ];
 
   int _currentIndex=0;
